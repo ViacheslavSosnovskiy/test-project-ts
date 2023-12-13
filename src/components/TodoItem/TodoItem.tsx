@@ -1,8 +1,7 @@
 import React, {FC} from 'react'
-import { Task } from '../App/App'
+import { Task } from '../../store/todoSlice'
 
 interface TodoItemProps {
-  // todo: {id: number, text: string},
   todo: Task
   onDelete: (id: number) => void,
 }
